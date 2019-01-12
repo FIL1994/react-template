@@ -1,0 +1,11 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "description": "A template for a react project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Philip Van Raalte",
+  "license": "MIT"
+}
