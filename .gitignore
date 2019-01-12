@@ -64,4 +64,6 @@ typings/
 .vscode
 tsconfig.json
 /node_modules/
+/template/node_modules
 /coverage/
+/new/
