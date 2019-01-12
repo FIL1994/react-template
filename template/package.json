@@ -1,13 +1,12 @@
 {
-  "name": "react-template",
+  "name": "my-react-project",
   "version": "0.1.0",
-  "description": "A template for a react project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --port=8080 --progress",
     "build": "cross-env NODE_ENV=production webpack --mode=production -p --progress"
   },
-  "author": "Philip Van Raalte",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
