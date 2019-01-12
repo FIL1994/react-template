@@ -2,9 +2,7 @@
 A template for a react project
 
 ## What's Included
-- [React](https://github.com/facebook/react), JSX, ES7 support
-- [Optional chaining](https://github.com/tc39/proposal-optional-chaining) syntax
-- [Less](https://github.com/less/less.js) support
+- [React](https://github.com/facebook/react), JSX, ES7, [Less](https://github.com/less/less.js) and [optional chaining](https://github.com/tc39/proposal-optional-chaining) support
 
 ## Folder Structure
 
