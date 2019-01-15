@@ -5,7 +5,6 @@ const figlet = require("figlet");
 const shell = require("shelljs");
 const { version } = require("../package.json");
 const path = require("path");
-const fs = require("fs");
 const makeDir = require("make-dir");
 const cpx = require("cpx");
 const slash = require("slash");
@@ -21,7 +20,7 @@ const exec = (command, extraEnv) =>
 console.log(
   chalk.green(
     figlet.textSync("React Template", {
-      font: "cybermedium"
+      font: "Cybermedium"
     })
   )
 );

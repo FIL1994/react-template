@@ -1,13 +1,10 @@
 {
   "name": "@philvr/react-template",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "A CLI for generating a React app template",
   "main": "bin/run.js",
   "bin": {
     "react-template": "bin/run.js"
-  },
-  "scripts": {
-    "test": ""
   },
   "repository": {
     "type": "git",
@@ -16,7 +13,8 @@
   "keywords": [
     "react",
     "template",
-    "less"
+    "less",
+    "cli"
   ],
   "author": "Philip Van Raalte",
   "license": "MIT",
