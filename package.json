@@ -32,7 +32,5 @@
     "shelljs": "^0.8.3",
     "slash": "^2.0.0"
   },
-  "devDependencies": {
-    "rollup-plugin-node-resolve": "^4.0.0"
-  }
+  "devDependencies": {}
 }
