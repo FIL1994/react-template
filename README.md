@@ -6,6 +6,7 @@ A CLI for generating a React app template
 ```
 npm i -g @philvr/react-template
 ```
+
 2. Create a new project
 ```
 react-template my-app
