@@ -56,6 +56,7 @@ commander
     exec("npm init");
     console.log(chalk.green("Installing dependencies..."));
     exec("npm i");
+    console.log(`cd ${dir}`);
     console.log('Run "npm run start" to start the project');
     console.log('Run "npm run build" to build the project');
   });
