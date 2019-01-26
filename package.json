@@ -19,7 +19,7 @@
   "files": [
     "**",
     "!template/node_modules",
-    "!git"
+    "!.git"
   ],
   "author": "Philip Van Raalte",
   "license": "MIT",
