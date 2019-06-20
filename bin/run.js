@@ -33,14 +33,11 @@ commander
     console.log("Creating project directory:", dir);
 
     const pathDirectory = await makeDir(dir);
-    console.log("Using path:", pathDirectory);
 
     const relativePath = slash(path.relative(process.cwd(), __dirname));
 
-    console.log("relative", `${relativePath}/template/!(node_modules)`);
-
     const spinner = ora("Copying files").start();
-    cpx.copySync(`${relativePath}/../template/!(node_modules)`, pathDirectory, {
+    cpx.copySync(`${relativePath}/../template/{!(node_modules),!(node_modules)/**}`, pathDirectory, {
       includeEmptyDirs: true,
       verbose: true
     });
@@ -50,7 +47,6 @@ commander
 
     console.log("Done copying files");
 
-    console.log(`cd ${dir}`);
     shell.cd(dir);
     console.log(process.cwd());
     exec("npm init");
